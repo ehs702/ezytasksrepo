@@ -4,23 +4,10 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building...'
+                echo 'Testing webhook add in'
                 // Your build steps go here
             }
-        }
 
-        stage('Test') {
-            steps {
-                echo 'Testing...'
-                // Your test steps go here
-            }
-        }
-
-        stage('Deploy') {
-            steps {
-                echo 'Deploying...'
-                // Your deployment steps go here
-            }
         }
     }
 }
